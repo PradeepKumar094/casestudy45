@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "jest"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PradeepKumar094/casestudy45.git"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PradeepKumar094/casestudy45/issues"
   },
-  "homepage": "https://github.com/PradeepKumar094/casestudy45#readme"
+  "homepage": "https://github.com/PradeepKumar094/casestudy45#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
